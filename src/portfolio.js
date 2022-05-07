@@ -685,41 +685,185 @@ const openSource = {
 };
 
 // Some big projects you have worked on
-
 const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
+      image: require("./assets/images/code_green.png"),
+      projectName: "Go Green",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "View Website",
           url: "http://saayahealth.com/"
-        }
+        },
+        // {
+        //   name: "Visit Website",
+        //   url: "http://saayahealth.com/"
+        // }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      image: require("./assets/images/arkue.png"),
+      projectName: "AKrue",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "View Website",
           url: "http://nextu.se/"
         }
       ]
     }
+,
+{
+  image: require("./assets/images/Battlz.png"),
+  projectName: "Battlz",
+  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  footerLink: [
+    {
+      name: "View Website",
+      url: "http://nextu.se/"
+    }
+  ]
+},
+{
+  image: require("./assets/images/Farm_plus_logo.png"),
+  projectName: "Farm System",
+  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  footerLink: [
+    {
+      name: "View Website",
+      url: "http://nextu.se/"
+    }
+  ]},
+
+
+{
+  image: require("./assets/images/Flea.png"),
+  projectName: "Flea",
+  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  footerLink: [
+    {
+      name: "View More ",
+      url: "http://nextu.se/"
+    }
+  ]
+},
+{
+  image: require("./assets/images/Legacy.png"),
+  projectName: "Legacy",
+  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  footerLink: [
+    {
+      name: "View More",
+      url: "http://nextu.se/"
+    }
+  ]
+},
+{
+  image: require("./assets/images/NDHS.png"),
+  projectName: "New Design High School",
+  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  footerLink: [
+    {
+      name: "View More",
+      url: "http://nextu.se/"
+    }
+  ]
+},
+{
+  image: require("./assets/images/litLogo.png"),
+  projectName: "Lit-Unlit",
+  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  footerLink: [
+    {
+      name: "View More",
+      url: "http://nextu.se/"
+    }
+  ]
+},
+{
+  image: require("./assets/images/relai.png"),
+  projectName: "Relai",
+  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  footerLink: [
+    {
+      name: "View More",
+      url: "http://nextu.se/"
+    }
+  ]
+},
+{
+  image: require("./assets/images/tipsterLogo.png"),
+  projectName: "Tipster",
+  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  footerLink: [
+    {
+      name: "View More",
+      url: "http://nextu.se/"
+    }
+  ]
+},
+{
+  image: require("./assets/images/peoplepedia_logo.jpg"),
+  projectName: "Peoplepedia",
+  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  footerLink: [
+    {
+      name: "View More",
+      url: "http://nextu.se/"
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+    ,
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
+// const bigProjects = {
+//   title: "Big Projects",
+//   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+//   projects: [
+//     {
+//       image: require("./assets/images/saayaHealthLogo.webp"),
+//       projectName: "Saayahealth",
+//       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+//       footerLink: [
+//         {
+//           name: "Visit Website",
+//           url: "http://saayahealth.com/"
+//         }
+//         //  you can add extra buttons here.
+//       ]
+//     },
+//     {
+//       image: require("./assets/images/nextuLogo.webp"),
+//       projectName: "Nextu",
+//       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+//       footerLink: [
+//         {
+//           name: "Visit Website",
+//           url: "http://nextu.se/"
+//         }
+//       ]
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
+
 // Achievement Section
 // Include certificates, talks etc
-
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
@@ -727,53 +871,132 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "The Complete iOS App Development Bootcamp",
+      subtitle: "Completed Certifcation from Udemy for iOS App Development",
+      image: require("./assets/images/udemy.png"),
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: " View Certification",
+          url: "https://user-images.githubusercontent.com/56911453/158331595-f8b21e6a-74d7-4a42-9e98-4cca2e20a782.jpg"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "International Journal of Engineering and Techinques",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Submitted Research paper at IJET on governing CyberLaws concerning India",
+      image: require("./assets/images/title_good1.jpg"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Research Paper",
+          url: "http://www.ijetjournal.org/Special-Issues/NCCRICS/NCCRICS107.pdf"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "React Development",
+      subtitle: "Completed Certifcation from Udemy for React Web App Development",
+      image: require("./assets/images/udemy.png"),
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "View Certification", url: "https://user-images.githubusercontent.com/56911453/158331924-b8777892-2712-4baf-8f1d-5adc0cf2137e.jpg"},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    },
+    {
+      title: "Complete Node Js ",
+      subtitle: "Completed Certifcation from Udemy for Node Js Backend Development",
+      image: require("./assets/images/udemy.png"),
+      footerLink: [
+        {name: "View Certification", url: "https://user-images.githubusercontent.com/56911453/158332815-953e0df5-1511-4cf7-9843-20d024e0ae46.jpg"},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    },
+    {
+      title: "Complete Flutter and Dart Developement ",
+      subtitle: "Completed Certifcation from Udemy for Flutter App Development by Angela YU",
+      image: require("./assets/images/udemy.png"),
+      footerLink: [
+        {name: "View Certification", url: " https://user-images.githubusercontent.com/56911453/158333756-3c2af9be-21d7-4f63-8164-0b5f75bc10be.jpg"},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
       ]
     }
+
+   
   ],
   display: true // Set false to hide this section, defaults to true
 };
+// const achievementSection = {
+//   title: emoji("Achievements And Certifications 🏆 "),
+//   subtitle:
+//     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+
+//   achievementsCards: [
+//     {
+//       title: "Google Code-In Finalist",
+//       subtitle:
+//         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+//       image: require("./assets/images/codeInLogo.webp"),
+//       footerLink: [
+//         {
+//           name: "Certification",
+//           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+//         },
+//         {
+//           name: "Award Letter",
+//           url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+//         },
+//         {
+//           name: "Google Code-in Blog",
+//           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+//         }
+//       ]
+//     },
+//     {
+//       title: "Google Assistant Action",
+//       subtitle:
+//         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+//       image: require("./assets/images/googleAssistantLogo.webp"),
+//       footerLink: [
+//         {
+//           name: "View Google Assistant Action",
+//           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+//         }
+//       ]
+//     },
+
+//     {
+//       title: "PWA Web App Developer",
+//       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+//       image: require("./assets/images/pwaLogo.webp"),
+//       footerLink: [
+//         {name: "Certification", url: ""},
+//         {
+//           name: "Final Project",
+//           url: "https://pakistan-olx-1.firebaseapp.com/"
+//         }
+//       ]
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Blogs Section
 
