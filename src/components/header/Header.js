@@ -21,12 +21,13 @@ function Header() {
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   // const viewTalks = talkSection.display;
+  /* eslint-disable jsx-a11y/anchor-is-valid */
 
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
        
-        <a href="#talks" className="logo">
+        <a href="#talks" className="logo" >
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
