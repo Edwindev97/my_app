@@ -1,23 +1,29 @@
 import React, {useContext} from "react";
-import "./WorkExperience.scss";
-import ExperienceCard from "../../components/experienceCard/ExperienceCard";
-import {workExperiences} from "../../portfolio";
-// import {Fade} from "react-reveal";
+import "./Testimonial.scss";
+import {testimonialSectionWord} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import TestimonialCard from "../../components/testimonailsCard/TestimonialCard";
 
-export default function WorkExperience() {
+export default function TestimonialsPage() {
   const {isDark} = useContext(StyleContext);
-  if (workExperiences.display) {
+  if (testimonialSectionWord.display) {
     return (
       <div id="experience">
         {/* <Fade bottom duration={1000} distance="20px"> */}
           <div className="experience-container" id="workExperience">
             <div>
-              <h1 className="experience-heading">Experiences</h1>
+              <h1 className="experience-heading">Testimonials</h1>
+              <p
+            className={
+              isDark ? "dark-mode blog-subtitle" : "subTitle blog-subtitle"
+            }
+          >
+            {testimonialSectionWord.subtitle}
+          </p>
               <div className="experience-cards-div">
-                {workExperiences.experience.map((card, i) => {
+                {testimonialSectionWord.experience.map((card, i) => {
                   return (
-                    <ExperienceCard
+                    <TestimonialCard
                       key={i}
                       isDark={isDark}
                       cardInfo={{

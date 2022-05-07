@@ -6,7 +6,7 @@ require("dotenv").config();
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
 const USE_GITHUB_DATA = process.env.USE_GITHUB_DATA;
-const MEDIUM_USERNAME = process.env.MEDIUM_USERNAME;
+// const MEDIUM_USERNAME = process.env.MEDIUM_USERNAME;
 
 const ERR = {
   noUserName:
@@ -18,6 +18,7 @@ const ERR = {
 };
 if (USE_GITHUB_DATA === "true") {
   if (GITHUB_USERNAME === undefined) {
+    console.log(`Thrrowing Erros `);
     throw new Error(ERR.noUserName);
   }
 
@@ -57,6 +58,7 @@ if (USE_GITHUB_DATA === "true") {
 }
 `
   });
+  
   const default_options = {
     hostname: "api.github.com",
     path: "/graphql",
@@ -69,10 +71,12 @@ if (USE_GITHUB_DATA === "true") {
   };
 
   const req = https.request(default_options, res => {
+    console.log("-----------------------------------------------");
     let data = "";
 
     console.log(`statusCode: ${res.statusCode}`);
     if (res.statusCode !== 200) {
+    
       throw new Error(ERR.requestFailed);
     }
 
@@ -95,37 +99,37 @@ if (USE_GITHUB_DATA === "true") {
   req.end();
 }
 
-if (MEDIUM_USERNAME !== undefined) {
-  console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
-  const options = {
-    hostname: "api.rss2json.com",
-    path: `/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`,
-    port: 443,
-    method: "GET"
-  };
+// if (MEDIUM_USERNAME !== undefined) {
+//   console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
+//   const options = {
+//     hostname: "api.rss2json.com",
+//     path: `/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`,
+//     port: 443,
+//     method: "GET"
+//   };
 
-  const req = https.request(options, res => {
-    let mediumData = "";
+//   const req = https.request(options, res => {
+//     let mediumData = "";
 
-    console.log(`statusCode: ${res.statusCode}`);
-    if (res.statusCode !== 200) {
-      throw new Error(ERR.requestMediumFailed);
-    }
+//     console.log(`statusCode: ${res.statusCode}`);
+//     if (res.statusCode !== 200) {
+//       throw new Error(ERR.requestMediumFailed);
+//     }
 
-    res.on("data", d => {
-      mediumData += d;
-    });
-    res.on("end", () => {
-      fs.writeFile("./public/blogs.json", mediumData, function (err) {
-        if (err) return console.log(err);
-        console.log("saved file to public/blogs.json");
-      });
-    });
-  });
+//     res.on("data", d => {
+//       mediumData += d;
+//     });
+//     res.on("end", () => {
+//       fs.writeFile("./public/blogs.json", mediumData, function (err) {
+//         if (err) return console.log(err);
+//         console.log("saved file to public/blogs.json");
+//       });
+//     });
+//   });
 
-  req.on("error", error => {
-    throw error;
-  });
+//   req.on("error", error => {
+//     throw error;
+//   });
 
-  req.end();
-}
+//   req.end();
+// }

@@ -39,6 +39,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
+
+          
           <i className="fas fa-envelope"></i>
           <span></span>
         </a>
@@ -51,7 +53,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-gitlab"></i>
+          <i className="fab fa-instagram"></i>
           <span></span>
         </a>
       ) : null}

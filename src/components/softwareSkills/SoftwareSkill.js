@@ -16,7 +16,10 @@ export default function SoftwareSkill() {
               >
                 <i className={skills.fontAwesomeClassname}></i>
                 <p>{skills.skillName}</p>
+                {/* <p className={skills.fontAwesomeClassname}></p> */}
+                
               </li>
+              
             );
           })}
         </ul>

@@ -8,7 +8,7 @@ export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
   );
-  const FailedLoading = () => null;
+  const FailedLoading = () =><Loading /> ;
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
   // todo: remove useContex because is not supported
@@ -16,6 +16,7 @@ export default function Projects() {
 
   useEffect(() => {
     const getRepoData = () => {
+
       fetch("/profile.json")
         .then(result => {
           if (result.ok) {
@@ -27,6 +28,8 @@ export default function Projects() {
           setrepoFunction(response.data.user.pinnedItems.edges);
         })
         .catch(function (error) {
+          console.log("dsjnfljknf");
+          console.log(error);
           console.error(
             `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
           );
@@ -39,7 +42,11 @@ export default function Projects() {
   function setrepoFunction(array) {
     setrepo(array);
   }
+  // console.log("--------",repo);
+  // console.log("--------",openSource.display);
+
   if (
+
     !(typeof repo === "string" || repo instanceof String) &&
     openSource.display
   ) {

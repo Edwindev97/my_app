@@ -1,8 +1,9 @@
 import React, {useState, createRef} from "react";
-import "./ExperienceCard.scss";
+import RatingExampleStar from "./RatingCard";
+// import "./components/testimonail/TestimonialCard.scss";
 // import ColorThief from "colorthief";
 
-export default function ExperienceCard({cardInfo, isDark}) {
+export default function TestimonialCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
 
@@ -33,10 +34,11 @@ export default function ExperienceCard({cardInfo, isDark}) {
   return (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
       <div style={{background: rgb(colorArrays)}} className="experience-banner">
+      
         <div className="experience-blurred_div"></div>
-        <div className="experience-div-company">
+        {/* <div className="experience-div-company">
           <h5 className="experience-text-company">{cardInfo.company}</h5>
-        </div>
+        </div> */}
 
         <img
           crossOrigin={"anonymous"}
@@ -44,10 +46,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
           className="experience-roundedimg"
           src={cardInfo.companylogo}
           alt={cardInfo.company}
-          // onLoad={() => getColorArrays(
-
-          // )
-        // }
+          // onLoad={() => getColorArrays()}
         />
       </div>
       <div className="experience-text-details">
@@ -60,6 +59,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
         >
           {cardInfo.role}
         </h5>
+       
         <h5
           className={
             isDark
@@ -67,7 +67,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
               : "experience-text-date"
           }
         >
-          {cardInfo.date}
+          {cardInfo.company}
         </h5>
         <p
           className={
@@ -78,10 +78,13 @@ export default function ExperienceCard({cardInfo, isDark}) {
         >
           {cardInfo.desc}
         </p>
-        <ul>
-          <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
-        </ul>
+       
+
+       
+      
       </div>
+   <RatingExampleStar/>
+    
     </div>
   );
 }
