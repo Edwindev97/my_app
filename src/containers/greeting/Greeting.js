@@ -56,7 +56,7 @@ export default function Greeting() {
            <div className="greeting-image-div"> 
           
            <img
-             src={"https://user-images.githubusercontent.com/56911453/156719504-ddec6e7d-9521-4154-8069-60d4c9e69037.svg"} alt="Edwin image"
+             src={"https://user-images.githubusercontent.com/56911453/156719504-ddec6e7d-9521-4154-8069-60d4c9e69037.svg"} alt="Edwin mage"
               // alt={prof.name}
               // className="profile-image"
             />
