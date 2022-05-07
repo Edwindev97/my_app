@@ -1,16 +1,15 @@
 import React, {useContext} from "react";
 import "./Contact.scss";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {illustration, contactInfo} from "../../portfolio";
-// import {Fade} from "react-reveal";
-import email from "../../assets/lottie/email";
+
+import {contactInfo} from "../../portfolio";
+
 // import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
   return (
-    // <Fade bottom duration={1000} distance="20px">
+   
       <div >
         <div >
           <div >

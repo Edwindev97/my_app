@@ -1,39 +1,39 @@
-import React, {useState, createRef} from "react";
+import React  from "react";
 import RatingExampleStar from "./RatingCard";
 // import "./components/testimonail/TestimonialCard.scss";
 // import ColorThief from "colorthief";
 
 export default function TestimonialCard({cardInfo, isDark}) {
-  const [colorArrays, setColorArrays] = useState([]);
-  const imgRef = createRef();
+  // const [colorArrays, setColorArrays] = useState([]);
+  // const imgRef = createRef();
 
   // function getColorArrays() {
   //   const colorThief = new ColorThief();
   //   setColorArrays(colorThief.getColor(imgRef.current));
   // }
 
-  function rgb(values) {
-    return typeof values === "undefined"
-      ? null
-      : "rgb(" + values.join(", ") + ")";
-  }
+  // function rgb(values) {
+  //   return typeof values === "undefined"
+  //     ? null
+  //     : "rgb(" + values.join(", ") + ")";
+  // }
 
-  const GetDescBullets = ({descBullets, isDark}) => {
-    return descBullets
-      ? descBullets.map((item, i) => (
-          <li
-            key={i}
-            className={isDark ? "subTitle dark-mode-text" : "subTitle"}
-          >
-            {item}
-          </li>
-        ))
-      : null;
-  };
+  // const GetDescBullets = ({descBullets, isDark}) => {
+  //   return descBullets
+  //     ? descBullets.map((item, i) => (
+  //         <li
+  //           key={i}
+  //           className={isDark ? "subTitle dark-mode-text" : "subTitle"}
+  //         >
+  //           {item}
+  //         </li>
+  //       ))
+  //     : null;
+  // };
 
   return (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
-      <div style={{background: rgb(colorArrays)}} className="experience-banner">
+      <div  className="experience-banner">
       
         <div className="experience-blurred_div"></div>
         {/* <div className="experience-div-company">
@@ -42,7 +42,7 @@ export default function TestimonialCard({cardInfo, isDark}) {
 
         <img
           crossOrigin={"anonymous"}
-          ref={imgRef}
+          // ref={imgRef}
           className="experience-roundedimg"
           src={cardInfo.companylogo}
           alt={cardInfo.company}

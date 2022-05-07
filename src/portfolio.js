@@ -6,9 +6,9 @@ import emoji from "react-easy-emoji";
 
 // Summary And Greeting Section
 
-const illustration = {
-  animated: true // Set to false to use static SVG
-};
+// const illustration = {
+//   animated: true // Set to false to use static SVG
+// };
 
 const greeting = {
   username: "Edwin Raj D",
@@ -106,7 +106,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    },
+    }
     // <i class="fa-solid fa-mobile"></i>
     // {
     //   skillName: "flutter",
@@ -166,36 +166,36 @@ const techStack = {
 
 // Work experience section
 
-  const workExperiences = {
-    display: true, //Set it to true to show workExperiences Section
-    experience: [
-      // {
-      //   role: "Software Engineer",
-      //   company: "Facebook",
-      //   companylogo: require("./assets/images/facebookLogo.png"),
-      //   date: "June 2018 – Present",
-      //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      //   descBullets: [
-      //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      //   ]
-      // },
-      {
-        role: "Mobile Application Developer",
-        company: "Zibtek",
-        companylogo: require("./assets/images/zibtek.jpeg"),
-        date: "Jul 2020 – Present",
-        desc: "Working as an Hybrid Mobile developer"
-      },
-      {
-        role: "Associate Software Engineer",
-        company: "Swayaan",
-        companylogo: require("./assets/images/swayaan.jpeg"),
-        date: "Sep 2019 – Jul 2020",
-        desc: "Worked as Native Android Developer."
-      }
-    ]
-  };
+const workExperiences = {
+  display: true, //Set it to true to show workExperiences Section
+  experience: [
+    // {
+    //   role: "Software Engineer",
+    //   company: "Facebook",
+    //   companylogo: require("./assets/images/facebookLogo.png"),
+    //   date: "June 2018 – Present",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    //   descBullets: [
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    //   ]
+    // },
+    {
+      role: "Mobile Application Developer",
+      company: "Zibtek",
+      companylogo: require("./assets/images/zibtek.jpeg"),
+      date: "Jul 2020 – Present",
+      desc: "Working as an Hybrid Mobile developer"
+    },
+    {
+      role: "Associate Software Engineer",
+      company: "Swayaan",
+      companylogo: require("./assets/images/swayaan.jpeg"),
+      date: "Sep 2019 – Jul 2020",
+      desc: "Worked as Native Android Developer."
+    }
+  ]
+};
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -237,108 +237,109 @@ const bigProjects = {
           url: "http://nextu.se/"
         }
       ]
-    }
-,
-{
-  image: require("./assets/images/Battlz.png"),
-  projectName: "Battlz",
-  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-  footerLink: [
+    },
+
     {
-      name: "View Website",
-      url: "http://nextu.se/"
-    }
-  ]
-},
-{
-  image: require("./assets/images/Farm_plus_logo.png"),
-  projectName: "Farm System",
-  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-  footerLink: [
+      image: require("./assets/images/Battlz.png"),
+      projectName: "Battlz",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "View Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
     {
-      name: "View Website",
-      url: "http://nextu.se/"
-    }
-  ]},
+      image: require("./assets/images/Farm_plus_logo.png"),
+      projectName: "Farm System",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "View Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
 
 
-{
-  image: require("./assets/images/Flea.png"),
-  projectName: "Flea",
-  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-  footerLink: [
     {
-      name: "View More ",
-      url: "http://nextu.se/"
-    }
-  ]
-},
-{
-  image: require("./assets/images/Legacy.png"),
-  projectName: "Legacy",
-  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-  footerLink: [
+      image: require("./assets/images/Flea.png"),
+      projectName: "Flea",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "View More ",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
     {
-      name: "View More",
-      url: "http://nextu.se/"
-    }
-  ]
-},
-{
-  image: require("./assets/images/NDHS.png"),
-  projectName: "New Design High School",
-  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-  footerLink: [
+      image: require("./assets/images/Legacy.png"),
+      projectName: "Legacy",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "View More",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
     {
-      name: "View More",
-      url: "http://nextu.se/"
-    }
-  ]
-},
-{
-  image: require("./assets/images/litLogo.png"),
-  projectName: "Lit-Unlit",
-  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-  footerLink: [
+      image: require("./assets/images/NDHS.png"),
+      projectName: "New Design High School",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "View More",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
     {
-      name: "View More",
-      url: "http://nextu.se/"
-    }
-  ]
-},
-{
-  image: require("./assets/images/relai.png"),
-  projectName: "Relai",
-  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-  footerLink: [
+      image: require("./assets/images/litLogo.png"),
+      projectName: "Lit-Unlit",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "View More",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
     {
-      name: "View More",
-      url: "http://nextu.se/"
-    }
-  ]
-},
-{
-  image: require("./assets/images/tipsterLogo.png"),
-  projectName: "Tipster",
-  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-  footerLink: [
+      image: require("./assets/images/relai.png"),
+      projectName: "Relai",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "View More",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
     {
-      name: "View More",
-      url: "http://nextu.se/"
-    }
-  ]
-},
-{
-  image: require("./assets/images/peoplepedia_logo.jpg"),
-  projectName: "Peoplepedia",
-  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-  footerLink: [
+      image: require("./assets/images/tipsterLogo.png"),
+      projectName: "Tipster",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "View More",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
     {
-      name: "View More",
-      url: "http://nextu.se/"
-    }
-  ]
-},
+      image: require("./assets/images/peoplepedia_logo.jpg"),
+      projectName: "Peoplepedia",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "View More",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
 
 
 
@@ -348,7 +349,7 @@ const bigProjects = {
 
 
 
-    ,
+  
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -399,7 +400,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from Udemy for React Web App Development",
       image: require("./assets/images/udemy.png"),
       footerLink: [
-        {name: "View Certification", url: "https://user-images.githubusercontent.com/56911453/158331924-b8777892-2712-4baf-8f1d-5adc0cf2137e.jpg"},
+        { name: "View Certification", url: "https://user-images.githubusercontent.com/56911453/158331924-b8777892-2712-4baf-8f1d-5adc0cf2137e.jpg" },
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -411,7 +412,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from Udemy for Node Js Backend Development",
       image: require("./assets/images/udemy.png"),
       footerLink: [
-        {name: "View Certification", url: "https://user-images.githubusercontent.com/56911453/158332815-953e0df5-1511-4cf7-9843-20d024e0ae46.jpg"},
+        { name: "View Certification", url: "https://user-images.githubusercontent.com/56911453/158332815-953e0df5-1511-4cf7-9843-20d024e0ae46.jpg" },
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -423,7 +424,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from Udemy for Flutter App Development by Angela YU",
       image: require("./assets/images/udemy.png"),
       footerLink: [
-        {name: "View Certification", url: " https://user-images.githubusercontent.com/56911453/158333756-3c2af9be-21d7-4f63-8164-0b5f75bc10be.jpg"},
+        { name: "View Certification", url: " https://user-images.githubusercontent.com/56911453/158333756-3c2af9be-21d7-4f63-8164-0b5f75bc10be.jpg" },
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -431,7 +432,7 @@ const achievementSection = {
       ]
     }
 
-   
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -534,7 +535,7 @@ const testimonialSection = {
 const testimonialSectionWord = {
   display: true, //Set it to true to show workExperiences Section
   subtitle:
-  "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   experience: [
     {
       role: "Satish Varghese",
@@ -575,7 +576,7 @@ const testimonialSectionWord = {
   ]
 };
 export {
-  illustration,
+
   greeting,
   socialMediaLinks,
   skillsSection,
