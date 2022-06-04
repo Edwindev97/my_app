@@ -214,131 +214,133 @@ const bigProjects = {
     {
       image: require("./assets/images/code_green.png"),
       projectName: "Go Green",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "View Website",
-          url: "http://saayahealth.com/"
-        },
-        // {
-        //   name: "Visit Website",
-        //   url: "http://saayahealth.com/"
-        // }
-        //  you can add extra buttons here.
-      ]
+      projectDesc: "An app for gated communities encouraging them to plant saplings and earn rewards from community members",
+      // footerLink: [
+      //   {
+      //     name: "View Website",
+      //     url: "http://saayahealth.com/"
+      //   },
+      //   // {
+      //   //   name: "Visit Website",
+      //   //   url: "http://saayahealth.com/"
+      //   // }
+      //   //  you can add extra buttons here.
+      // ]
     },
     {
       image: require("./assets/images/arkue.png"),
       projectName: "AKrue",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "View Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      projectDesc: "An affiliate marketing for athletes and reviewing sports products",
+      // footerLink: [
+      //   {
+      //     name: "View Website",
+      //     url: "http://nextu.se/"
+      //   }
+      // ]
     },
 
     {
       image: require("./assets/images/Battlz.png"),
       projectName: "Battlz",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "View Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      projectDesc: "Engaging rappers and vocal artists to share and allow users to upvote the best artist "
+      ,
+      // footerLink: [
+      //   {
+      //     name: "View Website",
+      //     url: "http://nextu.se/"
+      //   }
+      // ]
     },
     {
       image: require("./assets/images/Farm_plus_logo.png"),
       projectName: "Farm System",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "View Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      projectDesc: "An hybrid app that works as an alternate for twitter applications to gated communities. ",
+      // footerLink: [
+      //   {
+      //     name: "View Website",
+      //     url: "http://nextu.se/"
+      //   }
+      // ]
     },
 
 
     {
       image: require("./assets/images/Flea.png"),
       projectName: "Flea",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "View More ",
-          url: "http://nextu.se/"
-        }
-      ]
+      projectDesc: "One stop marketplace app that helps user sell products on multiple ecommerce platforms like eBay, Etsy and Facebook Marketplace",
+      // footerLink: [
+      //   {
+      //     name: "View More ",
+      //     url: "http://nextu.se/"
+      //   }
+      // ]
     },
     {
       image: require("./assets/images/Legacy.png"),
-      projectName: "Legacy",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "View More",
-          url: "http://nextu.se/"
-        }
-      ]
+      projectName: "Legacy Foundations",
+      projectDesc: "An app that helps coordinate between construction workers and contractors , building invoices and project blueprint. ",
+      // footerLink: [
+      //   {
+      //     name: "View More",
+      //     url: "http://nextu.se/"
+      //   }
+      // ]
     },
     {
       image: require("./assets/images/NDHS.png"),
       projectName: "New Design High School",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "View More",
-          url: "http://nextu.se/"
-        }
-      ]
+      projectDesc: "Manages schedule and mails ,alerts about upcoming events and seminars for college students"
+      ,
+      // footerLink: [
+      //   {
+      //     name: "View More",
+      //     url: "http://nextu.se/"
+      //   }
+      // ]
     },
     {
       image: require("./assets/images/litLogo.png"),
       projectName: "Lit-Unlit",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "View More",
-          url: "http://nextu.se/"
-        }
-      ]
+      projectDesc: "A simple social media app that promotes posts based on lit and unlit factors .",
+      // footerLink: [
+      //   {
+      //     name: "View More",
+      //     url: "http://nextu.se/"
+      //   }
+      // ]
     },
     {
       image: require("./assets/images/relai.png"),
       projectName: "Relai",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "View More",
-          url: "http://nextu.se/"
-        }
-      ]
+      projectDesc: "An app that manages local exchange  warehouses to promote shopping for local shops to provide within an hour delivery.",
+      // footerLink: [
+      //   {
+      //     name: "View More",
+      //     url: "http://nextu.se/"
+      //   }
+      // ]
     },
     {
       image: require("./assets/images/tipsterLogo.png"),
       projectName: "Tipster",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "View More",
-          url: "http://nextu.se/"
-        }
-      ]
+      projectDesc: "An app that provides public safety tips and code of conduct for law enforcement officers.",
+      // footerLink: [
+      //   {
+      //     name: "View More",
+      //     url: "http://nextu.se/"
+      //   }
+      // ]
     },
     {
       image: require("./assets/images/peoplepedia_logo.jpg"),
       projectName: "Peoplepedia",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "View More",
-          url: "http://nextu.se/"
-        }
-      ]
+      projectDesc: "A super app that helps making meaningful connections based on the personality of an individual.",
+      // footerLink: [
+      //   {
+      //     name: "View More",
+      //     url: "http://nextu.se/"
+      //   }
+      // ]
     },
 
 
