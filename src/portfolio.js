@@ -1,6 +1,6 @@
 /* Change this file to get your personal Portfolio */
 
-// To change portfolio colors globally go to the  _globalColor.scss file
+// To change portfolio colors globally go to the  _globalColor.scss f
 
 import emoji from "react-easy-emoji";
 
